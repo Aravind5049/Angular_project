@@ -1,0 +1,23 @@
+ANGULAR 5 INSTALLATION	
+ first we need node to be installed. If it already installed then follow below steps to install angular 5
+1.type "npm install -g @angular/cli" in command prompt, it will install all the required libraries.
+2.Then after develop create a new project throgh CLI (command line interface)
+   to do that type "ng new demo" it will take some time to install. So after installing it open node cmd and change the directory and run the project created- "cd demo"
+   next the directory is changed to project folder then type "ng serve -o"
+3.It will take some time to config and open the project in local host. http://localhost:4200/ is the address in the browser where our project file opens.
+
+ANGULAR 5 APPLICATON DEVELOPEMENT
+Components are the fundamental building blocks of Angular applications. They display data on the screen, listen for user input, and take action based on that input.
+in order to build that component we need to route to our project throug node cmd(cd final) and to create a component type " ng genereate component home" it takes some time to develope the component 
+
+TYPE SCRIPTING
+1.Angular is written in Type script which is superset of the java script. 
+2.Type script is the es6 version of the java script with extra feautres.
+3.As all the browsers can excecute the type script it is converted to Es5 or Es6 through Transpiler.
+4.HTML comes with a bunch of pre-built tags like <input> and <form> which look and behave a certain way.
+ In Angular we create new custom tags with their own look and behaviour.
+
+ANNOTATIONS
+1."@component" is annotation, it automatically adds some boilerplate code to the class.
+	boilerplate code:In computer programming, boilerplate code or boilerplate refers to sections of code that have to be 
+	included in many places with little or no alteration. 
